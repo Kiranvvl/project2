@@ -1,0 +1,138 @@
+
+body{
+    background: linear-gradient(to right,magenta,blue);
+}
+
+
+    
+    
+  
+
+  
+.container{
+    background: linear-gradient(to right,brown, magenta);
+    
+}
+@media only screen and (max-width:625px) {
+    .container{
+        flex-direction: row;
+        width: 25%;
+    
+    }
+}
+
+.task{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display:inline-block;
+    float:left;
+
+}
+
+@media only screen and (max-width:624px) {
+    li {
+        disply:inline;
+        width:100%;
+    
+    }
+}
+li a{
+    display:block;
+    padding:10px;
+    margin:15px;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+
+
+.btn{
+    float: right;
+    margin: 15px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background:linear-gradient(to left,orange,red);
+    }
+
+    @media only screen and (max-width: 320px) {
+        .btn{
+          display:inline;
+          width: 25%;
+        }
+      }
+
+.lor{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 2px solid blue;
+}
+@media only screen and (max-width:625px) {
+    .lor{
+        height: -50%;
+        width:-100%;
+    
+    }
+}
+.container1{
+    display: flex;
+    background: red;
+    border: 2px solid greenyellow;
+    
+}
+
+@media only screen and (max-width:625px) {
+    .container1{
+        disply:block;
+        width:500px;;
+        
+
+    
+    }
+}
+.container1>div{
+    background: green;
+    border: 2px solid white;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:625px) {
+    .container1>div{
+        display:block;
+        height:350px;
+       
+
+    
+    }
+}
+
+footer {
+    background: lightgray;
+}
+
+.lnk {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.fafa{
+    float: right;
+}
+
+.fa{
+    float: left;
+}
+ 
